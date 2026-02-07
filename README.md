@@ -11,13 +11,18 @@ A Python-based security monitoring tool that watches Linux authentication logs i
 
 ## Technologies Used
 - Linux
-- Python 3
-- System logs (auth.log)
+- Python 
+- System logs
 - SSH
+- Github
 
 ## How It Works
 The script continuously reads the authentication log file and looks for keywords related to failed login attempts. When detected, it immediately prints an alert with the log entry.
 
 ## How to Run
 ```bash
-sudo python3 log_monitor.py
+python3 log_monitor.py
+
+## Example Alerts
+Alert: Failed login detected!
+2025-03-16 ... Failed password for invalid user ...
