@@ -23,6 +23,3 @@ The script continuously reads the authentication log file and looks for keywords
 ```bash
 python3 log_monitor.py
 
-## Example Alerts
-Alert: Failed login detected!
-2025-03-16 ... Failed password for invalid user ...
